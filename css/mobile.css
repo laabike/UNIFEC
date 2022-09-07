@@ -1,0 +1,120 @@
+/* Header */
+#main-header {
+  height: 53px; 
+}
+
+#main-header .language-container {
+  display: none;
+}
+
+#main-header .others-container .explore {
+  display: none;
+}
+
+#main-header .others-container .press {
+  display: none;
+}
+
+#main-header img {
+  width: 277px;
+  padding-left: 50px;
+}
+
+#main-header .others-container input {
+  margin: 0px 0px 0px 2px;
+}
+
+#main-nav { 
+  display: none;
+}
+
+#showcase .showcase-content p {
+  font-size: 3.5rem;
+  margin:120px -130px -150px 50px;
+  padding: 0 0px 0 100px;
+  font-weight: bolder;
+}
+
+.article {
+  /* background: blue; */
+  background: none;
+  color: var(--dark-color);
+  padding: 1rem;
+  border-radius: 8px;
+  height: 500px;
+}
+
+.articles-container {
+  /* width: 1px; */
+  height: 500px;
+  font-size: 16px;
+  background: green;
+  /* margin: 0 40px;
+  padding: 0 15px 0 35px; */
+}
+
+#home-articles .articles-container {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 1.5rem;
+  width: 300px;
+  /* background: red; */
+}
+
+#home-articles .articles-container .article1 {
+  position: initial;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  /* grid-template-columns: repeat(2, 1fr); */
+  padding-right: 500px;
+  /* width: 200px; */
+  /* background: url("../images/4children.jpeg") no-repeat; */
+  background-size: 365px, 500px;
+  /* background-size: 365px, 900px; */
+
+  
+  /* grid-column: auto; */
+}
+
+#home-articles .articles-container .article1:first-child > img {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  position: static;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  grid-column: auto;
+}
+
+#home-articles .articles-container .article-content1 {
+  position: initial;
+  bottom: 0;
+  left: 0;
+  margin-bottom:0 ;
+  margin-left: 0;
+  padding: 0;
+  background: yellow;
+  width: 284px;
+  height: 248px;
+}
+
+#home-articles .article2 {
+  position: static;
+  bottom: 0;
+  left: 0px;
+  /* padding-right: -500px; */
+  background: palevioletred;
+  margin-left: -400px;
+  width: 284px;
+  height: 500px;
+}
+
+#home-articles .article {
+  padding-left: 10px;
+  margin-bottom: 3px;
+  height: 500px;
+}
